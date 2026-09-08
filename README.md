@@ -95,19 +95,18 @@ Follow-up & Closure
 The objective is to demonstrate **traceability** across the lifecycle rather than treating each document as a standalone deliverable.
 
 ---
-
 # 4. Project Architecture
 
-| Stage | Deliverable                | Primary Purpose                                               |
-| ----- | -------------------------- | ------------------------------------------------------------- |
-| 01    | Context of Organization    | Define business context, interested parties and ISMS scope    |
-| 02    | Asset Register             | Identify information and associated assets                    |
-| 03    | Risk Register              | Identify and assess information-security risks                |
-| 04    | Statement of Applicability | Map risks to applicable Annex A controls                      |
-| 05    | Internal Audit             | Test selected controls using objective evidence               |
-| 06    | Findings & CAP             | Document nonconformities, observations and corrective actions |
-| 07    | Follow-up                  | Verify implementation and operating effectiveness             |
-
+| Stage | Deliverable | Primary Purpose |
+| ----- | ----------- | --------------- |
+| 01 | Context of Organization | Define business context, interested parties and ISMS scope |
+| 02 | Information Asset Register | Identify information and associated assets |
+| 03 | Risk Register | Identify and assess information-security risks |
+| 04 | Internal Audit Checklist | Define risk-based audit tests and control evaluation criteria |
+| 05 | Statement of Applicability | Document control applicability, justification and risk relationship |
+| 06 | Internal Audit Report | Document audit scope, testing, results and findings |
+| 07 | Findings & Corrective Actions | Track NCRs, observations and corrective actions |
+| 08 | Follow-up & Closure | Verify implementation and operating effectiveness |
 ---
 
 # 5. Stage 01 — Context of the Organization
@@ -503,15 +502,32 @@ This traceability is a core feature of the project.
 
 # 16. Repository Contents
 
-```text
-01-context/
-02-asset-register/
-03-risk-register/
-04-statement-of-applicability/
-05-internal-audit/
-06-findings-and-corrective-actions/
-07-documentation/
-screenshots/
+kartify-retail-iso27001-grc-audit/
+│
+├── 01-context/
+│   └── Kartify_Retail_Context_of_Organization.docx
+│
+├── 02-asset-register/
+│   └── Kartify_Retail_Asset_Register.xlsx
+│
+├── 03-risk-register/
+│   └── Kartify_Retail_Risk_Register.xlsx
+│
+├── 04-internal-audit-checklist/
+│   └── Kartify_Retail_Internal_Audit_Checklist_PROFESSIONAL.xlsx
+│
+├── 05-statement-of-applicability/
+│   └── Kartify_Retail_Comprehensive_SoA.xlsx
+│
+├── 06-internal-audit/
+│   └── Kartify_Retail_Internal_Audit_Report.docx
+│
+├── 07-findings/
+│   └── findings-summary.md
+│
+├── screenshots/
+│
+└── README.md
 ```
 
 Each stage represents a logical component of the GRC lifecycle.
@@ -524,9 +540,6 @@ Each stage represents a logical component of the GRC lifecycle.
 
 * ISO/IEC 27001:2022
 * ISO 19011
-* ISO/IEC 27005:2022
-* NIST SP 800-30
-* NIST SP 800-60
 * PCI DSS v4.0
 * India DPDP Act 2023
 
